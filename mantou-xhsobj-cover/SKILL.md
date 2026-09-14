@@ -1,0 +1,75 @@
+---
+name: mantou-xhsobj-cover
+description: Create finished Xiaohongshu covers from real product or device photos, with the object as the visual anchor and clear title-led hierarchy. Use for DIY hardware, desk tools, product modifications, and object-first workflow posts; do not use when a person's expression or a software screenshot is the primary story.
+---
+
+# Mantou XHS Object Cover
+
+Create a finished, publishable 3:4 Xiaohongshu cover from a real object photograph. The object—not generic AI imagery—is the proof point. The design should make the topic understandable in a small feed thumbnail while preserving the actual device, its screen, and its connection context.
+
+## When to choose this skill
+
+Use this when the post is about a physical object: a DIY device, an ESP32/M5Stack build, a modified peripheral, a desk tool, or a product workflow.
+
+Choose the anchor before designing:
+
+- **Object-first (default):** the item itself is the transformation or proof. Keep it in the lower 45–60% of the frame and visually isolate it with a white sticker outline.
+- **Person-first:** use only when the post is really about the creator's expression, pose, or lived experience. The object can support the story, but should not compete for primary attention.
+- **Screenshot-first:** use when the software screen, result, or before/after state is what proves the claim. Use the object as a secondary cue.
+- **Object + hand:** use when a hand makes scale, interaction, or use obvious. Do not add a person merely to fill the frame.
+
+If the user's real photo is too soft, poorly lit, or hides the object, ask for another photo or use a deliberate crop; do not substitute an invented product rendering.
+
+## Inputs to collect
+
+Collect only what matters:
+
+1. One real object photo to use as the edit target.
+2. An optional style reference.
+3. Exact main headline. Preserve it verbatim unless the user asks for a shorter cover version.
+4. Confirmed feature labels or proof points. Treat brand and product spelling as exact user content; ask if a term is ambiguous.
+
+Do not add outcomes, data, compatibility, or functions that are not confirmed by the user or visible in the supplied material.
+
+## Default composition
+
+- Canvas: 1080 × 1440 px, 3:4 vertical.
+- Preserve authentic photo texture; crop for composition rather than replacing the scene.
+- Put one dominant object anchor in the lower-middle area. Keep its identifiable silhouette, screen, ports, cables, and perspective intact when they matter to the story.
+- Reserve the upper 30–35% for the main title. Make it readable at roughly 80 px wide.
+- Use one small category tag, one short support label, and at most a few sparse doodles. Extra labels should guide the eye, not become a paragraph.
+- Use a thick irregular white outline around the object only when it improves separation from the background.
+
+## Recommended visual language
+
+For reference styles like a playful Xiaohongshu collage: use a real photo base, highlighter-yellow hand-painted title, deep charcoal outline/shadow, a white sticker border, one cobalt-blue tag, mint/cyan accent icons, and a few hand-drawn arrows or sparkles.
+
+Suggested palette:
+
+- headline yellow: `#F3F000`
+- outline charcoal: `#161616`
+- sticker white: `#FFFFFF`
+- tag blue: `#356AFF`
+- tech mint: `#79E7D7`
+
+Treat these as a starting point, not a mandatory identity. Match the source image when another palette is more legible.
+
+## Copy hierarchy
+
+1. **Main title:** the only oversized text. Prefer 8–16 Chinese characters; a two-line lockup is fine.
+2. **Category tag:** 2–8 words, such as `M5Stack 改造` or `旧设备改造`.
+3. **Support label:** 2–4 short confirmed functions separated by dots, such as `语音交互 · Hermes`.
+4. **Optional handwritten note:** one small human observation, not another sales claim.
+
+Avoid fake logos, QR codes, creator watermarks, random decorative English, dense copy, and generic claims such as “最强”“无敌”“秒懂” unless the user explicitly wants and can support them.
+
+## Production workflow
+
+1. Use the supplied photo as an **edit target** and any example collage as a **style reference**. Create a complete finished cover, not a text-free background, unless the user asks otherwise.
+2. State the chosen anchor and the planned copy before generation when that helps the user review the creative decision.
+3. Generate or edit the cover with exact text supplied in the prompt. Preserve the object photo's identity and scene.
+4. Inspect the output at full size. Verify: object identity, title spelling, label spelling, no invented functions, no occlusion of the main object, and correct 3:4 dimensions.
+5. If text is malformed or too small, make one targeted revision or use a deterministic text-overlay step. Never silently deliver a misspelled headline.
+6. Save a non-destructive PNG with a descriptive name. Report its absolute path and exact dimensions.
+
+For detailed measurements and the release checklist, read [layout-and-qa.md](layout-and-qa.md).
