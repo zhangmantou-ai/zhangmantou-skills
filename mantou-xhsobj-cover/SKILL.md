@@ -26,10 +26,20 @@ Collect only what matters:
 
 1. One real object photo to use as the edit target.
 2. An optional style reference.
-3. Exact main headline. Preserve it verbatim unless the user asks for a shorter cover version.
+3. Either an exact main headline, or a clear request to generate one from the post theme and confirmed information.
 4. Confirmed feature labels or proof points. Treat brand and product spelling as exact user content; ask if a term is ambiguous.
 
 Do not add outcomes, data, compatibility, or functions that are not confirmed by the user or visible in the supplied material.
+
+## Headline modes
+
+Choose the mode from the user's instruction:
+
+- **Provided title:** when the user supplies a main headline, preserve it verbatim. You may suggest a shorter cover version or a line break, but do not replace it without approval.
+- **Candidate mode (default when no headline is supplied):** propose exactly three thumbnail-readable title options, based only on the photo, post theme, and confirmed information. Briefly label the angle of each option. Wait for the user to choose before making the finished cover.
+- **Direct-selection mode:** choose one title yourself only when the user explicitly says that you may decide. State the chosen title and why it fits before producing the cover.
+
+Never treat an image alone as proof of a product result, performance claim, or use case. If the photo does not make the topic clear enough to write truthful title candidates, ask for one sentence of context.
 
 ## Default composition
 
@@ -66,7 +76,7 @@ Avoid fake logos, QR codes, creator watermarks, random decorative English, dense
 ## Production workflow
 
 1. Use the supplied photo as an **edit target** and any example collage as a **style reference**. Create a complete finished cover, not a text-free background, unless the user asks otherwise.
-2. State the chosen anchor and the planned copy before generation when that helps the user review the creative decision.
+2. State the chosen anchor and the planned copy before generation. In candidate mode, the title choice must be confirmed first; in direct-selection mode, state the title you selected.
 3. Generate or edit the cover with exact text supplied in the prompt. Preserve the object photo's identity and scene.
 4. Inspect the output at full size. Verify: object identity, title spelling, label spelling, no invented functions, no occlusion of the main object, and correct 3:4 dimensions.
 5. If text is malformed or too small, make one targeted revision or use a deterministic text-overlay step. Never silently deliver a misspelled headline.
