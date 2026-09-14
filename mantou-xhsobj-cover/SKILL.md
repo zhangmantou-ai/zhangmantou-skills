@@ -1,19 +1,19 @@
 ---
 name: mantou-xhsobj-cover
-description: Create finished Xiaohongshu covers from real product or device photos, with the object as the visual anchor and clear title-led hierarchy. Use for DIY hardware, desk tools, product modifications, and object-first workflow posts; do not use when a person's expression or a software screenshot is the primary story.
+description: Create finished Xiaohongshu covers from real object photos, with the object as the visual anchor and clear title-led hierarchy. Use for products, small objects, food, crafts, desk scenes, and DIY projects; do not use when a person's expression or a software screenshot is the primary story.
 ---
 
 # Mantou XHS Object Cover
 
-Create a finished, publishable 3:4 Xiaohongshu cover from a real object photograph. The object—not generic AI imagery—is the proof point. The design should make the topic understandable in a small feed thumbnail while preserving the actual device, its screen, and its connection context.
+Create a finished, publishable 3:4 Xiaohongshu cover from a real object photograph. The object—not generic AI imagery or a person—is the proof point. The design should make the topic understandable in a small feed thumbnail while preserving the actual object, its texture, silhouette, and relevant context.
 
 ## When to choose this skill
 
-Use this when the post is about a physical object: a DIY device, an ESP32/M5Stack build, a modified peripheral, a desk tool, or a product workflow.
+Use this when the post is about a physical object: a product, small object, food or drink, craft, flower, desk scene, DIY device, modified peripheral, or tool.
 
 Choose the anchor before designing:
 
-- **Object-first (default):** the item itself is the transformation or proof. Keep it in the lower 45–60% of the frame and visually isolate it with a white sticker outline.
+- **Object-first (default):** the item itself is the transformation, result, or sensory focus. Keep it in the lower 45–60% of the frame and visually isolate it with a white sticker outline when useful.
 - **Person-first:** use only when the post is really about the creator's expression, pose, or lived experience. The object can support the story, but should not compete for primary attention.
 - **Screenshot-first:** use when the software screen, result, or before/after state is what proves the claim. Use the object as a secondary cue.
 - **Object + hand:** use when a hand makes scale, interaction, or use obvious. Do not add a person merely to fill the frame.
@@ -35,7 +35,7 @@ Do not add outcomes, data, compatibility, or functions that are not confirmed by
 
 - Canvas: 1080 × 1440 px, 3:4 vertical.
 - Preserve authentic photo texture; crop for composition rather than replacing the scene.
-- Put one dominant object anchor in the lower-middle area. Keep its identifiable silhouette, screen, ports, cables, and perspective intact when they matter to the story.
+- Put one dominant object anchor in the lower-middle area. Keep its identifiable silhouette, texture, colour, and relevant details intact; for devices, screens, ports, and cables may also matter.
 - Reserve the upper 30–35% for the main title. Make it readable at roughly 80 px wide.
 - Use one small category tag, one short support label, and at most a few sparse doodles. Extra labels should guide the eye, not become a paragraph.
 - Use a thick irregular white outline around the object only when it improves separation from the background.
@@ -57,8 +57,8 @@ Treat these as a starting point, not a mandatory identity. Match the source imag
 ## Copy hierarchy
 
 1. **Main title:** the only oversized text. Prefer 8–16 Chinese characters; a two-line lockup is fine.
-2. **Category tag:** 2–8 words, such as `M5Stack 改造` or `旧设备改造`.
-3. **Support label:** 2–4 short confirmed functions separated by dots, such as `语音交互 · Hermes`.
+2. **Category tag:** 2–8 words, such as `M5Stack 改造`, `周末咖啡`, or `手作记录`.
+3. **Support label:** 2–4 short confirmed attributes separated by dots, such as `语音交互 · Hermes` or `黄油香 · 现烤`.
 4. **Optional handwritten note:** one small human observation, not another sales claim.
 
 Avoid fake logos, QR codes, creator watermarks, random decorative English, dense copy, and generic claims such as “最强”“无敌”“秒懂” unless the user explicitly wants and can support them.
