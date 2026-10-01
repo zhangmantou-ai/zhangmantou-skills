@@ -1,0 +1,264 @@
+{
+  "title": "从灵感到白板",
+  "width": 1080,
+  "height": 1440,
+  "pages": [
+    {
+      "title": "01 从想法到结构",
+      "elements": [
+        {
+          "type": "text",
+          "x": 72,
+          "y": 100,
+          "text": "从一个想法开始",
+          "fontSize": 60
+        },
+        {
+          "type": "text",
+          "x": 72,
+          "y": 208,
+          "text": "先确定：我想让观众记住什么？",
+          "fontSize": 32
+        },
+        {
+          "type": "rectangle",
+          "x": 180,
+          "y": 360,
+          "width": 720,
+          "height": 140,
+          "fill": "#fff3d9"
+        },
+        {
+          "type": "text",
+          "x": 226,
+          "y": 405,
+          "text": "一段笔记 / 一个问题",
+          "fontSize": 42
+        },
+        {
+          "type": "arrow",
+          "x": 540,
+          "y": 525,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              130
+            ]
+          ]
+        },
+        {
+          "type": "rectangle",
+          "x": 180,
+          "y": 690,
+          "width": 720,
+          "height": 160,
+          "fill": "#edf3fc"
+        },
+        {
+          "type": "text",
+          "x": 224,
+          "y": 743,
+          "text": "核心观点 + 三个要点",
+          "fontSize": 42
+        },
+        {
+          "type": "text",
+          "x": 110,
+          "y": 1100,
+          "text": "先理清关系，再决定怎么画。",
+          "fontSize": 40
+        }
+      ]
+    },
+    {
+      "title": "02 选择表达方式",
+      "elements": [
+        {
+          "type": "text",
+          "x": 72,
+          "y": 100,
+          "text": "用结构帮助理解",
+          "fontSize": 60
+        },
+        {
+          "type": "text",
+          "x": 72,
+          "y": 208,
+          "text": "选择适合内容的画法，不堆装饰。",
+          "fontSize": 32
+        },
+        {
+          "type": "rectangle",
+          "x": 80,
+          "y": 360,
+          "width": 400,
+          "height": 220,
+          "fill": "#edf3fc"
+        },
+        {
+          "type": "rectangle",
+          "x": 600,
+          "y": 360,
+          "width": 400,
+          "height": 220,
+          "fill": "#edf3fc"
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 399,
+          "text": "对比",
+          "fontSize": 44
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 480,
+          "text": "两个方案\n并排看差异",
+          "fontSize": 32
+        },
+        {
+          "type": "text",
+          "x": 640,
+          "y": 399,
+          "text": "流程",
+          "fontSize": 44
+        },
+        {
+          "type": "text",
+          "x": 640,
+          "y": 480,
+          "text": "几个步骤\n按顺序展开",
+          "fontSize": 32
+        },
+        {
+          "type": "rectangle",
+          "x": 80,
+          "y": 730,
+          "width": 920,
+          "height": 270,
+          "fill": "#edf6f3"
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 776,
+          "text": "创作者确认",
+          "fontSize": 44
+        },
+        {
+          "type": "text",
+          "x": 120,
+          "y": 860,
+          "text": "表达方式、信息密度、比例与风格\n确认后再制作完整白板。",
+          "fontSize": 32
+        }
+      ]
+    },
+    {
+      "title": "03 确认后开始讲",
+      "elements": [
+        {
+          "type": "text",
+          "x": 72,
+          "y": 100,
+          "text": "从白板到口播",
+          "fontSize": 60
+        },
+        {
+          "type": "text",
+          "x": 72,
+          "y": 208,
+          "text": "修改与录制都在 Excalicord 网页。",
+          "fontSize": 32
+        },
+        {
+          "type": "rectangle",
+          "x": 180,
+          "y": 350,
+          "width": 720,
+          "height": 140,
+          "fill": "#edf3fc"
+        },
+        {
+          "type": "text",
+          "x": 230,
+          "y": 397,
+          "text": "白板修改并确认",
+          "fontSize": 42
+        },
+        {
+          "type": "arrow",
+          "x": 540,
+          "y": 510,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              100
+            ]
+          ]
+        },
+        {
+          "type": "rectangle",
+          "x": 180,
+          "y": 640,
+          "width": 720,
+          "height": 140,
+          "fill": "#fff3d9"
+        },
+        {
+          "type": "text",
+          "x": 230,
+          "y": 687,
+          "text": "口播稿修改并确认",
+          "fontSize": 42
+        },
+        {
+          "type": "arrow",
+          "x": 540,
+          "y": 800,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              100
+            ]
+          ]
+        },
+        {
+          "type": "rectangle",
+          "x": 180,
+          "y": 930,
+          "width": 720,
+          "height": 140,
+          "fill": "#edf6f3"
+        },
+        {
+          "type": "text",
+          "x": 230,
+          "y": 977,
+          "text": "填入可编辑提词器",
+          "fontSize": 42
+        },
+        {
+          "type": "text",
+          "x": 130,
+          "y": 1180,
+          "text": "准备好以后，由你开始录制。",
+          "fontSize": 38
+        }
+      ]
+    }
+  ]
+}

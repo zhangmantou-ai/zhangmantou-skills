@@ -10,7 +10,14 @@
 
 ## Skills
 
-目前正在整理和发布中。
+目前已收录：
+
+| Skill | 说明 | 授权 |
+| --- | --- | --- |
+| [mantou-xhsobj-cover](mantou-xhsobj-cover/) | 已有封面 Skill，使用方式以目录说明为准 | 以原目录说明为准 |
+| [mantou-excalicord-creator](mantou-excalicord-creator/) | 从素材到可编辑白板，确认方向和口播稿后填入 Excalicord 提词器 | [MIT](mantou-excalicord-creator/LICENSE) |
+
+白板 Skill 包含安装使用说明、通用示例、生成脚本和验证记录，支持修改与二次创作。
 
 后续会陆续加入：
 
@@ -47,8 +54,9 @@ GitHub: **zhangmantou-ai**
 
 ## License
 
-本仓库目前暂未设置开源许可证。
+本仓库按目录分别授权，不设置覆盖全部内容的统一开源许可证。
 
-你可以浏览和了解这里公开的内容，但未经明确授权，请勿复制、修改、重新发布或用于商业用途。
+- **mantou-excalicord-creator** 使用 [MIT License](mantou-excalicord-creator/LICENSE)，允许使用、修改、再分发及商业使用，须保留许可证与版权声明。
+- **其他目录和未单独授权的内容** 保持原有授权：你可以浏览和了解，但未经明确授权，请勿复制、修改、重新发布或用于商业用途。
 
-后续不同 Skill 可能会采用不同的授权方式，具体以对应目录中的说明为准。
+第三方软件、服务和素材遵循各自许可，具体以对应目录中的说明为准。

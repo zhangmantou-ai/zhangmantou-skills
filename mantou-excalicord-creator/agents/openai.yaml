@@ -1,0 +1,4 @@
+interface:
+  display_name: "馒头 Excalicord 白板创作助手"
+  short_description: "确认创作方向，制作可编辑白板，确认口播稿后直接填入网页提词器"
+  default_prompt: "使用 $mantou-excalicord-creator，把我的素材制作成可在 Excalicord 编辑的分页白板；逐步确认方向、结构和口播稿，稿件确认后填入提词器。"
