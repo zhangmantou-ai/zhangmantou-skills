@@ -16,6 +16,7 @@
 | --- | --- | --- |
 | [mantou-xhsobj-cover](mantou-xhsobj-cover/) | 已有封面 Skill，使用方式以目录说明为准 | 以原目录说明为准 |
 | [mantou-excalicord-creator](mantou-excalicord-creator/) | 从素材到可编辑白板，确认方向和口播稿后填入 Excalicord 提词器 | [MIT](mantou-excalicord-creator/LICENSE) |
+| [mantou-opinion-video](mantou-opinion-video/) | 从观点与本人录音制作动态大字竖版视频，按内容匹配低存在感背景，默认无音乐 | [MIT](mantou-opinion-video/LICENSE) |
 
 白板 Skill 包含安装使用说明、通用示例、生成脚本和验证记录，支持修改与二次创作。
 
@@ -59,6 +60,7 @@ GitHub: **zhangmantou-ai**
 本仓库按目录分别授权，不设置覆盖全部内容的统一开源许可证。
 
 - **mantou-excalicord-creator** 使用 [MIT License](mantou-excalicord-creator/LICENSE)，允许使用、修改、再分发及商业使用，须保留许可证与版权声明。
+- **mantou-opinion-video** 使用 [MIT License](mantou-opinion-video/LICENSE)，包含制作规范、安装说明和使用提示；第三方素材不包含在授权内。
 - **其他目录和未单独授权的内容** 保持原有授权：你可以浏览和了解，但未经明确授权，请勿复制、修改、重新发布或用于商业用途。
 
 第三方软件、服务和素材遵循各自许可，具体以对应目录中的说明为准。

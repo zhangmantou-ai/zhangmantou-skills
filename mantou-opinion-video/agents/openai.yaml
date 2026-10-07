@@ -1,0 +1,4 @@
+interface:
+  display_name: "张馒头观点口播视频"
+  short_description: "从真实观点到本人录音，按内容匹配视频背景，以动态大字制作无配乐竖版视频"
+  default_prompt: "使用 $mantou-opinion-video，使用我自己的身份和账号标识，把我接下来表达的观点整理成口播稿，录音后按真实节奏制作视频。"
